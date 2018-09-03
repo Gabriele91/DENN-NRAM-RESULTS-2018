@@ -1,0 +1,26 @@
+Test;DE Variant;Mutation;Crossover;Train Complexity;;Reached cost 0;;Train Error;;Generalization;
+ ;;;;No Curriculum Learning;Curriculum Learning;No Curriculum Learning;Curriculum Learning;No Curriculum Learning;Curriculum Learning;No Curriculum Learning;Curriculum Learning
+Access;JADE;DEGL;bin;len(A) = 8, t = 3;len(A) ≤ 10 ;⨉;✓;100%;0;No;Perfect
+Access;JADE;current to p best;;;;✓;✓;0;0;Perfect;Perfect
+Access;SHADE;DEGL;;;;⨉;⨉;100%;100%;No;No
+Access;SHADE;current to p best;;;;⨉;✓;60%;0;No;Perfect
+Access;L-SHADE;DEGL;;;;⨉;⨉;100%;100%;No;No
+Access;L-SHADE;current to p best;;;;⨉;⨉;100%;100%;No;No
+Increment;JADE;DEGL;;len(A) = 9,t = 9 ;len(A) ≤ 11;⨉;⨉;100%;100%;No;No
+Increment;JADE;current to p best;;;;✓;⨉;0;100%;Perfect;No
+Increment;SHADE;DEGL;;;;⨉;⨉;100%;100%;No;No
+Increment;SHADE;current to p best;;;;⨉;✓;100%;0;No;Perfect
+Increment;L-SHADE;DEGL;;;;⨉;⨉;100%;100%;No;No
+Increment;L-SHADE;current to p best;;;;⨉;⨉;100%;100%;No;No
+Copy;JADE;DEGL;;len(A) = 5, t = 12 ;len(A) ≤ 9 ;⨉;⨉;100%;100%;No;No
+Copy;JADE;current to p best;;;;✓;⨉;0;100%;Semi-Perfect;No
+Copy;SHADE;DEGL;;;;⨉;⨉;100%;100%;No;No
+Copy;SHADE;current to p best;;;;⨉;⨉;75%;65%;No;No
+Copy;L-SHADE;DEGL;;;;⨉;⨉;100%;100%;No;No
+Copy;L-SHADE;current to p best;;;;⨉;⨉;100%;100%;No;No
+Reverse;JADE;DEGL;;len(A) = 4, t = 9;len(A) ≤ 8 ;⨉;✓;60%;0;No;Perfect
+Reverse;JADE;current to p best;;;;✓;⨉;0;0;Perfect;Perfect
+Reverse;SHADE;DEGL;;;;✓;✓;0;0;Perfect;Perfect
+Reverse;SHADE;current to p best;;;;⨉;✓;100%;0;No;Perfect
+Reverse;L-SHADE;DEGL;;;;⨉;⨉;100%;100%;No;No
+Reverse;L-SHADE;current to p best;;;;⨉;⨉;100%;100%;No;No
